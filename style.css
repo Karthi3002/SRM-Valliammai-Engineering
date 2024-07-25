@@ -90,6 +90,13 @@ nav .fa{
 }
 
 @media only screen and (max-width: 600px){
+    .header{
+        min-height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images2/VEC\ clg.jpg);
+        background-size:cover;
+        background-position: center;
+    }
     .text-box h1{
         font-size: 20px;
     }
